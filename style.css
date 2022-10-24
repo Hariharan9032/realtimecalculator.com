@@ -1,0 +1,67 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.Num-op {
+    width: 380px;
+    height: 530px;
+    background-color: black;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+#inbox {
+    width: 300px;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+}
+
+#btn {
+    width: 50px;
+    height: 60px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    border: none;
+}
+
+#btn:hover {
+    color: rgba(244, 69, 69, 0.863);
+    transform: scale(1.5);
+}
+
+.buttons {
+    margin: 0 35px 0 0;
+    color: black;
+}
+
+.buttons>ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons>ul>li {
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    padding: 15px;
+    margin-right: 15px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.buttons>ul>li:active {
+    transform: scale(0.8)
+}
+
+.buttons>ul>li:hover {
+    color: rgb(246, 155, 44)
+}
